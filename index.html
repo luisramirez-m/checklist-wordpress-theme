@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="icon" href="img/favicon.ico">
+  <title>Cheklist WordPress Theme</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="starter-template">
+      <h1>Checklist Theme Wordpress</h1>
+      <p class="lead"></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <nav class="navbar" data-toggle="sticky-onscroll">
+      <div class="container">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Salta a
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#basico">Básico</a>
+            <a class="dropdown-item" href="#navigation">Navigation</a>
+            <a class="dropdown-item" href="#pages">Widgets</a>
+            <a class="dropdown-item" href="#">Pages</a>
+            <a class="dropdown-item" href="#">Posts</a>
+            <a class="dropdown-item" href="#">Multiple Page Posts</a>
+            <a class="dropdown-item" href="#">Tag More</a>
+            <a class="dropdown-item" href="#">Videos</a>
+            <a class="dropdown-item" href="#">Imágenes</a>
+            <a class="dropdown-item" href="#">Tags</a>
+            <a class="dropdown-item" href="#">Categories</a>
+            <a class="dropdown-item" href="#">Enclosures</a>
+            <a class="dropdown-item" href="#">Comments</a>
+            <a class="dropdown-item" href="#">No Comments</a>
+            <a class="dropdown-item" href="#">Disabled Comments</a>
+            <a class="dropdown-item" href="#">Trackbacks</a>
+            <a class="dropdown-item" href="#">Comment Form</a>
+            <a class="dropdown-item" href="#">Header & Footer</a>
+            <a class="dropdown-item" href="#">Errors & Scripts</a>
+            <a class="dropdown-item" href="#">Screenshot</a>
+            <a class="dropdown-item" href="#">Print styles</a>
+            <a class="dropdown-item" href="#">Theme classes</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="row justify-content-md-center">
+      <div class="col-md-8">
+        <form class="" action="index.html" method="post">
+          <div class="col-md">
+            <div class="seccion-single">
+              <h5 id="basico">Básico</h5>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input  selection-checkbox">
+                <span class="selection-label">¿Los "Post" están en el orden correcto(front page y archive page)?</span>
+              </label>
+              </div>
+
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">¿Es el numero correcto de "posts" mostradps (seegún establecido en las configuraciones de lectura)?</span>
+              </label>
+              </div>
+
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">¿Los "sticky post" están funcionando correctamente?</span>
+              </label>
+              </div>
+            </div>
+
+            <div class="seccion-single">
+              <h5 id="navigation">Navigation</h5>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input  selection-checkbox">
+                <span class="selection-label">Archive y single pages están paginando correctamente. ¿Muestran el numero apropiado de mensajes?</span>
+              </label>
+              </div>
+
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">Post, Pages y index deberán incluir <code>wp_link_pages()</code>. ¿El diseño está siendo mostrando en todas las categorias?</span>
+              </label>
+              </div>
+            </div>
+            <div class="seccion-single">
+              <h5 id="widgets">Widgets</h5>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input  selection-checkbox">
+                <span class="selection-label">¿El tema tiene los "Widgets" correspondientes?</span>
+              </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">¿Tu tema ya tiene "Widgets" personalizados?</span>
+              </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">¿Los "Widgets" actuales están correctos?</span>
+              </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">¿Los "Widgets" estandars están correctos y en su lugar?</span>
+              </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">¿Algún "Widget" estandar tiene que ser eliminado? Eliminar Widgets.</span>
+              </label>
+              </div>
+            </div>
+
+            <div class="seccion-single">
+              <h5 id="pages">Pages</h5>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input  selection-checkbox">
+                <span class="selection-label">¿Están habilitados los comentarios de "pages"? Asegurarse que "pages" tienen o no <code>< ?php  comments_template(); ? ></code> </span>
+              </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">Comprobar si las sub-pages funcionan en el menu de navegación</span>
+              </label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/general.js"></script>
+</body>
+
+</html>

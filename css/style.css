@@ -1,0 +1,40 @@
+body {
+  margin: 10px 0;
+}
+
+.selection-checkbox:checked + .selection-label {
+  text-decoration: line-through;
+}
+
+.sticky.is-sticky {
+  position: fixed;
+  left: 31px;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 3px 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #292b2c;
+  text-align: inherit;
+  white-space: nowrap;
+  background: 0 0;
+  border: 0;
+  font-size: 12px;
+}
+
+.seccion-single {
+  margin-bottom: 20px;
+}
+
+.seccion-single h5 {
+  border-bottom: 1px solid #4a4a4a;
+  width: 50%;
+  padding: 5px;
+}
