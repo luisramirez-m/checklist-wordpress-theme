@@ -32,15 +32,15 @@
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#basico">Básico</a>
             <a class="dropdown-item" href="#navigation">Navigation</a>
-            <a class="dropdown-item" href="#pages">Widgets</a>
-            <a class="dropdown-item" href="#">Pages</a>
-            <a class="dropdown-item" href="#">Posts</a>
-            <a class="dropdown-item" href="#">Multiple Page Posts</a>
-            <a class="dropdown-item" href="#">Tag More</a>
-            <a class="dropdown-item" href="#">Videos</a>
-            <a class="dropdown-item" href="#">Imágenes</a>
-            <a class="dropdown-item" href="#">Tags</a>
-            <a class="dropdown-item" href="#">Categories</a>
+            <a class="dropdown-item" href="#widgets">Widgets</a>
+            <a class="dropdown-item" href="#pages">Pages</a>
+            <a class="dropdown-item" href="#post">Posts</a>
+            <a class="dropdown-item" href="#multiple-page-posts">Multiple Page Posts</a>
+            <a class="dropdown-item" href="#tag-more">Tag More</a>
+            <a class="dropdown-item" href="#videos">Videos</a>
+            <a class="dropdown-item" href="#imagenes">Imágenes</a>
+            <a class="dropdown-item" href="#tags">Tags</a>
+            <a class="dropdown-item" href="#categorias">Categorias</a>
             <a class="dropdown-item" href="#">Enclosures</a>
             <a class="dropdown-item" href="#">Comments</a>
             <a class="dropdown-item" href="#">No Comments</a>
@@ -151,21 +151,165 @@
               </label>
               </div>
             </div>
-          </div>
+
+            <div class="seccion-single">
+              <h5 id="posts">Posts</h5>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input  selection-checkbox">
+                <span class="selection-label">El sitio web funciona correctamente al iniciar sesión como un administrador comparado con el usuario normal? <span class="text-muted">Ejemplo: Los enlaces de "Edit post" funcionen correctamente.</span></span>
+                </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">Formatos de Fecha y Hora (a menos que no sea significativo para el diseño).</span>
+              </label>
+              </div>
+              <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">La estructura de "Post" realmente tiene todo el estilo del diseño.</span>
+              </label>
+              </div>
+              <div class="form-check child">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">Tables</span>
+                </label>
+              </div>
+
+              <div class="form-check child">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">Captions</span>
+                </label>
+              </div>
+
+              <div class="form-check child">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">Unordered lists</span>
+                </label>
+              </div>
+
+              <div class="form-check child">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">Ordered lists</span>
+                </label>
+              </div>
+
+              <div class="form-check child">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">Blockquotes</span>
+                </label>
+              </div>
+
+
+              <div class="seccion-single">
+                <h5 id="multiple-page-post">Multiple Page Posts</h5>
+                <div class="form-check">
+                  <label class="form-check-label">
+                <input type="checkbox" class="form-check-input  selection-checkbox">
+                <span class="selection-label">Enlaces de paginas se ven correctamente y con formato apropiado.</span>
+                </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                <input type="checkbox" class="form-check-input selection-checkbox">
+                <span class="selection-label">Los enlaces de pagina funcionan.</span>
+              </label>
+                </div>
+              </div>
+
+
+              <div class="seccion-single">
+                <h5 id="tag-more">Tag More<-- more --></h5>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input  selection-checkbox">
+                    <span class="selection-label">La parte de la publicación antes de la etiqueta <code><-- more --></code>  aparece en el "archive/front pages"</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="seccion-single">
+                <h5 id="videos">Videos</h5>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input  selection-checkbox">
+                    <span class="selection-label">Video embedded funciona correctamente.</span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input selection-checkbox">
+                    <span class="selection-label">Asegurate que no se sobreposicione o empuje el "sidebar" (Los videos de youtube pueden ser redimensionados con un filtro en functions.php)</span>
+                  </label>
+                </div>
+              </div>
+
+
+              <div class="seccion-single">
+                <h5 id="imagenes">Imágenes</h5>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input  selection-checkbox">
+                    <span class="selection-label">Verifica un "post" con una imagen flotante a la derecha, izquierda y ver si se ve correctamente.</span>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input selection-checkbox">
+                    <span class="selection-label">Verificar un "post" con una imagen más grande que la columna del contenido.</span>
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input selection-checkbox">
+                    <span class="selection-label">El "shortcode" de galería funciona correctamente.</span>
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input selection-checkbox">
+                    <span class="selection-label">Verificar el diseño de la galería, tiene suficiente espacio y se ve correctamente.</span>
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input selection-checkbox">
+                    <span class="selection-label">Remover la propiedad de "border" de las imágenes que tienen enlaces. <code>img {border:none;}</code></span>
+                  </label>
+                </div>
+              </div>
+
+
+
+            </div>
         </form>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script>
-    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-  </script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/general.js"></script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>
+      window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/general.js"></script>
+</body>
+
+</html>
+<script src="js/general.js"></script>
 </body>
 
 </html>
