@@ -38,3 +38,11 @@ body {
   width: 50%;
   padding: 5px;
 }
+
+.selection-label label {
+  margin-bottom: 0;
+}
+
+.form-check.child {
+  margin-left: 23px;
+}
